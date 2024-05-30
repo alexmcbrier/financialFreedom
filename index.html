@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <h1>hello world, this is our financial app</h1>
+        <h2>select age</h2>
+        <label for="ageDropdown">Age </label>
+        <select id="ageDropdown" onchange="updateAge()">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <!-- Add more options as needed -->
+        </select>
     </body>
 </html>
