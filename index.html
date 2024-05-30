@@ -3,18 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
     </head>
     <body>
         <h1>hello world, this is our financial app</h1>
-        <h2>select age</h2>
-        <label for="ageDropdown">Age </label>
-        <select id="ageDropdown" onchange="updateAge()">
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
-            <option value="40">40</option>
-            <option value="50">50</option>
-            <!-- Add more options as needed -->
+
+
+         <!-- age-->
+         <label for="ageInput">Age:</label>
+         <input type="number" id="ageInput" oninput="updateAge()" value="30">
+         <p id="ageDisplay">Selected Age: 30</p>
+        
+         <!-- marital status-->
+        <label for="maritalStatusDropdown">Marital Status </label>
+        <select id="maritalStatusDropdown" onchange="updateMaritalStatus()">
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
         </select>
+        <p id="maritalDisplay">Marrige Status: Single</p>
+
+        <!-- retirment age-->
+        <label for="retirmentAgeInput">Retirment Age:</label>
+        <input type="number" id="retirmentAgeInput" oninput="updateRetirmentAge()" value="65">
+        <p id="retirmentAgeDisplay">Selected Retirment Age: 65</p>
+
+
     </body>
 </html>
