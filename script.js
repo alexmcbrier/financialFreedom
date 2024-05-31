@@ -1,6 +1,6 @@
 let person = {
     demographic: {
-        age: 54,
+        age: undefined,
         maritalStatus: undefined,
         childrenOrDependents: undefined,
         numberOfChildrenOrDependents: undefined,
