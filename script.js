@@ -4,14 +4,8 @@ let person = {
         maritalStatus: undefined,
         childrenOrDependents: undefined,
         numberOfChildrenOrDependents: undefined,
-        state: {
-            name: undefined,
-            taxRate: undefined,
-        },
-        county: {
-                name: undefined,
-                taxRate: undefined
-        },
+        state_of_residence: undefined,
+        county_of_residence: undefined,
     },
     career: {
         name: undefined,
